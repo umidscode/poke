@@ -1,0 +1,12 @@
+.poke-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.poke-list .poke-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,83 @@
+.poke-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background: rgb(75, 21, 189);
+    padding: 10px;
+    box-shadow: 5px 15px 15px #888888;
+
+}
+.poke-id {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: aquamarine;
+}
+.poke-card .poke-id {
+    margin: 0;
+}
+.poke-card .poke-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.poke-card img {
+    width: 250px;
+    height: 220px;
+    /* border: 1px solid grey; */
+}
+.poke-name {
+    font-size: 30px;
+    font-family: cursive;
+    color: aquamarine;
+    text-align: center;
+}
+
+/* --- Modal styles --- */
+
+.outlook > img{
+    height: 200px;
+    width: 300px;
+}
+
+.m-head{
+    background-color: #4b15bd;
+    color: aquamarine;
+}
+
+.infos{
+
+    color: #4b15bd;
+    margin-left: 100px;
+}
+
+
+.window .details{
+    display: flex;
+}
+.window .details .outlook {
+    width: 50%;
+}
+
+
+.window .details .infos {
+    width: 50%;
+    font-weight: bold;
+}
+.window .details .infos img{
+    width: 25px;
+}
+
+.window img{
+    width: 100%;
+}
+
+.btn-info {
+    background-color: aquamarine;
+    color: #4b15bd;
+    font-family: cursive;
+    font-size: 20px;
+}

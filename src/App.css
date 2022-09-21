@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container .btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container{
+  margin-top: 20px;
+}
+
+.btn-container > img {
+  width: 300px;
+  height: 100px;
+  margin-left: 250px;
+}
+
+.prev {
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff2e2e;
+  color: white;
+}
+
+.Next {
+  margin-left: 250px;
+  height: 50px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4b15bd;
+  color: white;
+}
